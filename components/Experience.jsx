@@ -145,5 +145,3 @@ const Experience = () => {
 }
 
 export default Experience
-
-/* https://www.youtube.com/watch?v=zokKTsRx7QA 1:12:32 25/9/22 */

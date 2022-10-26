@@ -28,7 +28,6 @@ const Homepage = () => {
             </span>
           </div>
         </Link>
-
         </div>
     </div>
   )

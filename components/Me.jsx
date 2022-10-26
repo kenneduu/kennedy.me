@@ -79,7 +79,6 @@ const Me = () => {
         Some images are placed temporarily until more representative ones can be sourced.  </p> 
       </div>
 
-
       
   );
 };
