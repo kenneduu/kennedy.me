@@ -56,6 +56,7 @@ const Portfolio = () => {
             gap-8">
 
             {portfolios.map(({id, title, imageSrc, url}) => (
+                <Link key={id} href={`/portfolio/${url}`}>
 
                 
 
@@ -71,6 +72,7 @@ const Portfolio = () => {
                       
                         
                     </div>
+                    </Link>
 
                 
 
