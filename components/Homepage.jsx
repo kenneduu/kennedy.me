@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Homepage = () => {
   return (
-    <div> id="home" className="h-screen w-full text-center 
+    
       <div className="max-w-screen-2xl mx-auto w-full h-full pt-24 
         p-4 flex flex-col justify-around items-center bg-gray-400"> 
         <div className="w-55 h-65 max-w-none overflow-hidden rounded-3xl"> 
@@ -29,7 +29,7 @@ const Homepage = () => {
           </div>
         </Link>
         </div>
-    </div>
+   
   )
 }
 
