@@ -34,19 +34,19 @@ const Navbar = () => {
     {
       id: 4,
       link: "me",
-    }
+    },
   ];
 
   return (
     <div
       className={`w-full h-20 z-10 fixed bg-white text-black duration-300 ease-in ${
-        pageScroll && "bg-gray-400 text-[#fff]"
+        pageScroll && "bg-gray-500 text-[#fff]"
       }`}
     >
       <div className="flex justify-between items-center w-full h-full max-w-screen-xl mx-auto p-4">
         <Link href="/#home">
           <h1 className="text-3xl lg:text-4xl font-bold uppercase underline underline-offset-2 tracking-wider cursor-pointer">
-            Hello There!
+            Hello There
           </h1>
         </Link>
 
@@ -75,14 +75,14 @@ const Navbar = () => {
       <div
         className={
           navigation
-            ? "md:hidden fixed left-0 top-0 w-full h-full bg-gray-500 backdrop-blur"
+            ? "md:hidden fixed left-0 top-0 w-full h-full bg-gray-400 backdrop-blur"
             : ""
         }
       >
         <div
           className={
             navigation
-              ? "fixed left-0 top-0 w-4/5 h-full bg-gradient-to-r from-gray-200 to-gray-300 text-black p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-4/5 h-full bg-gradient-to-r from-gray-100 to-gray-200 text-white p-10 ease-in duration-500"
               : "fixed top-0 left-[-100%] p-10 h-full ease-in duration-500"
           }
         >
@@ -93,7 +93,7 @@ const Navbar = () => {
                   onClick={() => setNavigation(false)}
                   className="text-3xl font-bold uppercase underline underline-offset-2 tracking-wider cursor-pointer"
                 >
-                  Hello There!
+                  Hello There
                 </h2>
               </Link>
               <div
@@ -118,6 +118,7 @@ const Navbar = () => {
                 </Link>
               ))}
             </ul>
+
             
           </div>
         </div>

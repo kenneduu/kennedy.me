@@ -72,13 +72,12 @@ const Me = () => {
 
         <p className="py-4 max-w-2xl mx-auto text-center text-gray-700 font-semibold"> This website was
         created using React, Next.JS framework and love, alongside
-        support from software developers' guidance  </p>
+        support from software developers' guidance. Hosted through AWS.  </p>
 
         <p className="py-4 max-w-2xl mx-auto text-center font text-gray-700 text-xs"> 
         The images you see on this page are royalty-free. No regulations have been broken. 
         Some images are placed temporarily until more representative ones can be sourced.  </p> 
       </div>
-
       
   );
 };
