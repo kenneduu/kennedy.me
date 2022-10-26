@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImage from 'D:/resume/kenna.png';
+import heroImage from '../public/assets/kenna.png';
 import {MdExpandMore} from 'react-icons/md';
 import Image from 'next/image';
 import Link from "next/link";

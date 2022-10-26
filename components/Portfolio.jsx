@@ -4,10 +4,10 @@ import React from 'react'
 
 import { MdExpandMore } from 'react-icons/md';
 
-import Language1 from 'D:/resume/java.png';
-import Language2 from 'D:/resume/python.png';
-import Language3 from 'D:/resume/react.png';
-import Language4 from 'D:/resume/spring-boot.png';
+import Language1 from '../public/assets/java.png';
+import Language2 from '../public/assets/python.png';
+import Language3 from '../public/assets/react.png';
+import Language4 from '../public/assets/spring-boot.png';
 
 const Portfolio = () => {
 
