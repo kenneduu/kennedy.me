@@ -82,7 +82,7 @@ const Navbar = () => {
         <div
           className={
             navigation
-              ? "fixed left-0 top-0 w-4/5 h-full bg-gradient-to-r from-gray-100 to-gray-200 text-white p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-4/5 h-full bg-gradient-to-r from-gray-100 to-gray-200 text-gray-700 p-10 ease-in duration-500"
               : "fixed top-0 left-[-100%] p-10 h-full ease-in duration-500"
           }
         >
