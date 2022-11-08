@@ -46,7 +46,7 @@ const Portfolio = () => {
 
             <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-gray-700
             font-bold"> Portfolio </h2>
-            <p className=" text-center py-4 font-semibold"> I've been programming for around 7 years now - during
+            <p className=" text-center py-4 font-semibold"> I've been programming for around 5 years now - during
             this time, I've collated a number of projects that best showcase my skills and adoration
             for developing. The projects you see may not be finished yet, as student life is very busy!
             However, the depth covered in each is substantial for further application.

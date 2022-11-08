@@ -13,7 +13,7 @@ const Me = () => {
 
         <div className="shadow-2xl my-8 px-8 bg-gray-300">
           <p className="py-4 max-w-2xl mx-auto text-lg font-semibold text-black">
-            Hi! My name is Kenna and I adore programming. 
+            Hi! My name is Kennedy and I adore programming. 
           </p>
           <p className="text-bold py-4 max-w-2xl mx-auto text-lg">
             I'm currently a Y13 student studying Computer Science, and to
@@ -72,7 +72,7 @@ const Me = () => {
 
         <p className="py-4 max-w-2xl mx-auto text-center text-gray-700 font-semibold"> This website was
         created using React, Next.JS framework and love, alongside
-        support from software developers' guidance. Hosted through AWS.  </p>
+        support from software developers' guidance. Hosted through Vercel.  </p>
 
         <p className="py-4 max-w-2xl mx-auto text-center font text-gray-700 text-xs"> 
         The images you see on this page are royalty-free. No regulations have been broken. 
