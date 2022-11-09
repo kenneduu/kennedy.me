@@ -110,7 +110,7 @@ const Experience = () => {
     <div className="max-w-screen-2xl mx-auto px-8 py-16 text-center
         md:text-left bg-gray-300">
 
-            <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-gray-700
+            <h2 className="text-5xl text-center md:text-7xl tracking-wider uppercase text-gray-700
             font-bold"> Experience </h2>
             <p className="text-center font-semibold py-4"> The curation of projects listed above
             have equipped me with a repository of skills that any developer would treasure. Listed below are these 

@@ -1,17 +1,15 @@
+import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react'
 
 import { MdExpandMore } from 'react-icons/md';
 
-import Language1 from '../public/assets/java.png';
-import Language2 from '../public/assets/python.png';
-import Language3 from '../public/assets/react.png';
-import Language4 from '../public/assets/spring-boot.png';
+import Language1 from '../../public/assets/java.png';
+import Language2 from '../../public/assets/python.png';
+import Language3 from '../../public/assets/react.png';
+import Language4 from '../../public/assets/spring-boot.png';
 
-const Portfolio = () => {
-
-
+export const getStaticProps = async () => {
     const portfolios = [
         {
             id: 1,
@@ -38,19 +36,22 @@ const Portfolio = () => {
             url: "java-app",
         },
     ];
-    
 
+    return {
+        props: {portfolios}
+    }
+}
+
+const DepthPortfolio  = ({portfolios}) => {
+    
     return (
         <div id="portfolio" className="w-full">
-          <div className="max-w-screen-xl mx-auto px-8 py-16 text-center">
+          <div className="max-w-screen-xl mx-auto pt-24 p-4 text-center">
           <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-gray-700
-            font-bold"> Portfolio </h2>
+            font-bold pb-16"> Portfolio </h2>
 
-        <p className=" text-center py-4 font-semibold"> I've been programming for around 5 years now - during
-            this time, I've collated a number of projects that best showcase my skills and adoration
-            for developing. The projects you see may not be finished yet, as student life is very busy!
-            However, the depth covered in each is substantial for further application.
-            </p>
+            <p className="pb-10 text-2xl text-gray-800 font-bold underline"> This page is currently in development! </p>
+
 
     
             <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
@@ -70,21 +71,9 @@ const Portfolio = () => {
                 </Link>
               ))}
             </div>
-    
-            <div className="flex items-center justify-center">
-              <Link href="/portfolio">
-              <div className="group flex items-center justify-center my-8 bg-green-200 text-gray-600 px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
-              all projects
-
-                  <span className="-rotate-90 duration-100 ease-in group-hover:translate-x-5">
-                    <MdExpandMore size={25} />
-                  </span>
-                </div>
-              </Link>
-            </div>
           </div>
         </div>
-      );
-    };
-    
-    export default Portfolio;
+    )
+}
+
+export default DepthPortfolio

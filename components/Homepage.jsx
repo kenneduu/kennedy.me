@@ -14,9 +14,9 @@ const Homepage = () => {
           <Image src={heroImage} alt="Kennedy"/>
         </div>
 
-        <h1 className="uppercase font-bold text-gray-700 text-7xl"> Aspiring Developer </h1>
+        <h1 className="uppercase font-bold text-gray-700 text-7xl p-4"> Student Developer </h1>
 
-        <h2 className = "text-gray-900 text-xl max-w-sm mx-auto font-bold text-center">
+        <h2 className = "text-gray-900 text-2xl max-w-sm mx-auto font-bold text-center">
           I'm Kennedy, a student Computer Scientist ready for the industry! </h2>
 
         <Link href='/#me'>
