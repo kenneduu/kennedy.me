@@ -7,6 +7,7 @@ import Me from "../components/Me";
 
 
 
+
 export default function Home() {
   return (
     <div> 
@@ -14,9 +15,6 @@ export default function Home() {
       <Portfolio />
       <Experience />
       <Me />
-      
-      
-
     </div>
   )
 }

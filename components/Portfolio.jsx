@@ -4,10 +4,10 @@ import React from 'react'
 
 import { MdExpandMore } from 'react-icons/md';
 
-import Language1 from 'D:/resume/java.png';
-import Language2 from 'D:/resume/python.png';
-import Language3 from 'D:/resume/react.png';
-import Language4 from 'D:/resume/spring-boot.png';
+import Language1 from '../public/assets/java.png';
+import Language2 from '../public/assets/python.png';
+import Language3 from '../public/assets/react.png';
+import Language4 from '../public/assets/spring-boot.png';
 
 const Portfolio = () => {
 
@@ -46,7 +46,7 @@ const Portfolio = () => {
 
             <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-gray-700
             font-bold"> Portfolio </h2>
-            <p className=" text-center py-4 font-semibold"> I've been programming for around 7 years now - during
+            <p className=" text-center py-4 font-semibold"> I've been programming for around 5 years now - during
             this time, I've collated a number of projects that best showcase my skills and adoration
             for developing. The projects you see may not be finished yet, as student life is very busy!
             However, the depth covered in each is substantial for further application.
@@ -56,6 +56,7 @@ const Portfolio = () => {
             gap-8">
 
             {portfolios.map(({id, title, imageSrc, url}) => (
+                <Link key={id} href={`/portfolio/${url}`}>
 
                 
 
@@ -71,6 +72,7 @@ const Portfolio = () => {
                       
                         
                     </div>
+                    </Link>
 
                 
 
