@@ -17,7 +17,7 @@ const Homepage = () => {
         <h1 className="uppercase font-bold text-gray-700 text-7xl p-4"> Student Developer </h1>
 
         <h2 className = "text-gray-900 text-2xl max-w-sm mx-auto font-bold text-center">
-          I'm Kennedy, a student Computer Scientist ready for the industry! </h2>
+          I'm Kennedy, a Computer Scientist ready for the industry! </h2>
 
         <Link href='/#me'>
           <div className="group flex items-center justify-center my-8 bg-green-200 text-gray-600 px-6 py-3 font-bold
