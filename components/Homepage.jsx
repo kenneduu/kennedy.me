@@ -32,6 +32,7 @@ const Homepage = () => {
 
         <p className='text-center'> Please Note: This website is constantly changing, as my own skills progress
 - make sure to check back regularly for the latest developments.
+
 </p>
         </div>
 
